@@ -27,7 +27,7 @@ export default class Header extends Component {
                                 <li><a href="#breakfast">bread</a></li>
                                 <li><a href="#featured-dish">featured</a></li>
                                 <li><a href="#reserve">reservation</a></li>
-                                <li><a href="#contact">contact</a></li>
+                                <li><a href="#contact">contact</a></li> 
                             </ul>
                         </div>
                     </div>
