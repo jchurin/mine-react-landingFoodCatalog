@@ -1,26 +1,34 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.min.css';
+// CSS imports
+import './assets/css/bootstrap.min.css';
+import './assets/css/font-awesome.min.css';
 import './assets/css/owl.carousel.css';
 import './assets/css/owl.theme.css';
-import 'animate.css/animate.css';
-import 'flexslider/flexslider.css';
+import './assets/css/animate.css';
+import './assets/css/flexslider.css';
+import './assets/css/pricing.css';
+import './assets/css/main.css';
+import './index.css';
 
-import $ from 'jquery';
+// JS imports
 import jquery from 'jquery';
+import $ from 'jquery';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 window.$ = window.jQuery = jquery;
-require('flexslider/jquery.flexslider');
-require('bootstrap/dist/js/bootstrap.min');
+require('./assets/js/jquery.flexslider.min');
+require('./assets/js/bootstrap.min');
 require('./assets/js/owl.carousel.min');
+// require('./assets/js/jquery.mixitup.min');
+require('./assets/js/wow.min');
+require('./assets/js/jquery.validate');
+// require('./assets/js/jquery.hoverdir');
 require('./assets/js/jQuery.scrollSpeed');
-require('./assets/js/scripts');
+require('./assets/js/script');
 
 $(document).ready(function () {
     $('.flexslider').flexslider({
