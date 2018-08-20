@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { CarouselHeader } from './CarouselHeader';
+import { About } from './About';
 
 export class Content extends Component {
     render() {
         return (
-            <CarouselHeader/>
+            <div>
+                <CarouselHeader />
+                <About/>
+            </div>
         )
     }
 }
