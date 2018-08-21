@@ -386,7 +386,7 @@ nav.shrink .navbar-toggle {
 /*=================================================
 ||				6. About us
 ==================================================*/
-.about-bg
+.about .section-bg
 {
 	background: url('./assets/images/About-C-bg.jpg');
 	background-repeat: no-repeat;
