@@ -23,7 +23,7 @@ window.$ = window.jQuery = jquery;
 require('./assets/js/jquery.flexslider.min');
 require('./assets/js/bootstrap.min');
 require('./assets/js/owl.carousel.min');
-// require('./assets/js/jquery.mixitup.min');
+require('./assets/js/jquery.mixitup');
 require('./assets/js/wow.min');
 require('./assets/js/jquery.validate');
 // require('./assets/js/jquery.hoverdir');

@@ -1,7 +1,7 @@
 import jQuery from 'jquery';
 import $ from 'jquery';
 import './wow.min';
-// import './jquery.mixitup.min';
+import './jquery.mixitup';
 /*=================================
 ||          Owl Carousel
 ==================================*/
@@ -88,12 +88,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-    // var $menuPricing = $('#menu-pricing');
-    // $menuPricing.mixItUp({
-    //     selectors: {
-    //         target: 'li'
-    //     }
-    // });
+    var $menuPricing = $('#menu-pricing');
+    $menuPricing.mixItUp({
+        selectors: {
+            target: 'li'
+        }
+    });
 
 });
 
