@@ -7,6 +7,7 @@ export const HEADER_ITEMS = {
     BREAD: { title: "bread", linkTo: "bread" },
     FEATURED: { title: "featured", linkTo: "featured-dish" },
     MENU: { title: "menu", linkTo: "menu-list" },
-    RESERVATION: { title: "reservation", linkTo: "reservation" },
-    CONTACT: { title: "contact", linkTo: "contact" },
+    DISHES: { title: "dishes", linkTo: "have-a-look" },
+    // RESERVATION: { title: "reservation", linkTo: "reservation" },
+    // CONTACT: { title: "contact", linkTo: "contact" },
 }
