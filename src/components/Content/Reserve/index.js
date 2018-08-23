@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { PresentationalWrapper } from '../../Shared/PresentationalWrapper';
 
-export class Breakfast extends Component {
+export class Reserve extends Component {
     render() {
         return (
-            <section id="breakfast" className="breakfast">
+            <section id="reserve" className="reserve">
                 <PresentationalWrapper
-                    imgPath="bread_black"
-                    title="Our Breakfast Menu"
+                    imgPath="reserve_black"
+                    title="Reserve A Table!"
                 />
             </section>
         )

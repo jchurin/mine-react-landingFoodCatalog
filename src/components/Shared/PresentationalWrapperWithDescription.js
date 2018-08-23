@@ -9,13 +9,13 @@ export class PresentationalWrapperWithDescription extends Component {
         return (
             <div>
                 <PresentationalIcon path={imgPath} />
-                <div class="container-fluid">
-                    <div class="row dis-table">
-                        <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
-                        <div class="col-xs-12 col-sm-6 dis-table-cell">
-                            <div class="section-content">
-                                <h2 class="section-content-title">{title}</h2>
-                                <div class="section-description">
+                <div className="container-fluid">
+                    <div className="row dis-table">
+                        <div className="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
+                        <div className="col-xs-12 col-sm-6 dis-table-cell">
+                            <div className="section-content">
+                                <h2 className="section-content-title">{title}</h2>
+                                <div className="section-description">
                                     {children}
                                 </div>
                             </div>

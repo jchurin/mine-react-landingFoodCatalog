@@ -7,16 +7,16 @@ export class Menu extends Component {
     getColumns = () => {
         return MENU.map((item, index) => {
             return (
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="row">
-                        <div class="menu-catagory">
+                <div key={index} className="col-md-3 col-sm-6 col-xs-12">
+                    <div className="row">
+                        <div className="menu-catagory">
                             <h2>{item.title}</h2>
                         </div>
                     </div>
                     {
                         item.dishes.map((item, index) => {
                             return (
-                                <div className="row">
+                                <div key={index} className="row">
                                     <MenuItem
                                         title={item.title}
                                         description={item.description}
@@ -34,14 +34,14 @@ export class Menu extends Component {
 
     render() {
         return (
-            <section id="menu-list" class="menu-list">
-                <div class="container">
-                    <div class="row menu">
-                        <div class="col-md-10 col-md-offset-1 col-sm-9 col-sm-offset-2 col-xs-12">
-                            <div class="row">{this.getColumns()}</div>
+            <section id="menu-list" className="menu-list">
+                <div className="container">
+                    <div className="row menu">
+                        <div className="col-md-10 col-md-offset-1 col-sm-9 col-sm-offset-2 col-xs-12">
+                            <div className="row">{this.getColumns()}</div>
                             <div id="moreMenuContent"></div>
-                            <div class="text-center">
-                                <a id="loadMenuContent" class="btn btn-middle hidden-sm hidden-xs">Load More <span class="caret"></span></a>
+                            <div className="text-center">
+                                <a id="loadMenuContent" className="btn btn-middle hidden-sm hidden-xs">Load More <span className="caret"></span></a>
                             </div>
                         </div>
                     </div>

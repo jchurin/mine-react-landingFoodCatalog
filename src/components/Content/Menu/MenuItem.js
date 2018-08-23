@@ -6,17 +6,17 @@ export class MenuItem extends Component {
         const { title, description, perHead, amount } = this.props;
         
         return (
-            <div class="menu-item">
-                <h3 class="menu-title">{title}</h3>
-                <p class="menu-about">{description}</p>
-                <div class="menu-system">
-                    <div class="half">
-                        <p class="per-head">
-                            <span><i class="fa fa-user"></i></span>{perHead}
+            <div className="menu-item">
+                <h3 className="menu-title">{title}</h3>
+                <p className="menu-about">{description}</p>
+                <div className="menu-system">
+                    <div className="half">
+                        <p className="per-head">
+                            <span><i className="fa fa-user"></i></span>{perHead}
                         </p>
                     </div>
-                    <div class="half">
-                        <p class="price">{`$${amount}`}</p>
+                    <div className="half">
+                        <p className="price">{`$${amount}`}</p>
                     </div>
                 </div>
             </div>
