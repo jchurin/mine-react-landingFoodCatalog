@@ -10,5 +10,5 @@ export const HEADER_ITEMS = {
     DISHES: { title: "dishes", linkTo: "have-a-look" },
     // RESERVE: { title: "reserve", linkTo: "reserve" },
     RESERVATION: { title: "reservation", linkTo: "reservation" },
-    // CONTACT: { title: "contact", linkTo: "contact" },
+    CONTACT: { title: "contact", linkTo: "contact" },
 }

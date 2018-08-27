@@ -11,6 +11,7 @@ import { Menu } from './Menu';
 import { Dishes } from './Dishes';
 import { Reserve } from './Reserve';
 import { Reservation } from './Reservation';
+import { Contact } from './Contact';
 
 export class Content extends Component {
     render() {
@@ -28,6 +29,7 @@ export class Content extends Component {
                 <Dishes />
                 <Reserve />
                 <Reservation />
+                <Contact />
             </div>
         )
     }
