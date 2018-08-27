@@ -12,6 +12,7 @@ import { Dishes } from './Dishes';
 import { Reserve } from './Reserve';
 import { Reservation } from './Reservation';
 import { Contact } from './Contact';
+import { Footer } from './Footer';
 
 export class Content extends Component {
     render() {
@@ -30,6 +31,7 @@ export class Content extends Component {
                 <Reserve />
                 <Reservation />
                 <Contact />
+                <Footer />
             </div>
         )
     }
