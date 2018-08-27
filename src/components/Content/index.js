@@ -13,24 +13,69 @@ import { Reserve } from './Reserve';
 import { Reservation } from './Reservation';
 import { Contact } from './Contact';
 import { Footer } from './Footer';
+import { HEADER_ITEMS } from '../../constants/header.constants';
 
 export class Content extends Component {
+
+    renderContent = () => {
+        return (
+            HEADER_ITEMS.map((item, index) => {
+                return this.switchComponentsContent(item.title, index);
+            })
+        )
+    }
+
+    switchComponentsContent = (itemName, itemIndex) => {
+        let component = null;
+        switch (itemName) {
+            case "about":
+                component = <About key={itemIndex} />
+                break;
+            case "pricing":
+                component = <Pricing key={itemIndex} />
+                break;
+            case "gpte":
+                component = <GratePlaceToEnjoy key={itemIndex} />
+                break;
+            case "beer":
+                component = <Beer key={itemIndex} />
+                break;
+            case "breakfast":
+                component = <Breakfast key={itemIndex} />
+                break;
+            case "bread":
+                component = <Bread key={itemIndex} />
+                break;
+            case "featured":
+                component = <FeaturedDish key={itemIndex} />
+                break;
+            case "menu":
+                component = <Menu key={itemIndex} />
+                break;
+            case "dishes":
+                component = <Dishes key={itemIndex} />
+                break;
+            case "reserve":
+                component = <Reserve key={itemIndex} />
+                break;
+            case "reservation":
+                component = <Reservation key={itemIndex} />
+                break;
+            case "contact":
+                component = <Contact key={itemIndex} />
+                break;
+            default:
+                console.error('This item doesnt exist!');
+                break;
+        }
+        return component;
+    }
+    
     render() {
         return (
             <div>
                 <CarouselHeader />
-                <About />
-                <Pricing />
-                <GratePlaceToEnjoy />
-                <Beer />
-                <Breakfast />
-                <Bread />
-                <FeaturedDish />
-                <Menu />
-                <Dishes />
-                <Reserve />
-                <Reservation />
-                <Contact />
+                {this.renderContent()}
                 <Footer />
             </div>
         )
