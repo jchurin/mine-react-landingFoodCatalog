@@ -3,9 +3,7 @@ import { PresentationalIcon } from './PresentationalIcon';
 
 export class PresentationalWrapperWithDescription extends Component {
     render() {
-
         const { imgPath, title, children } = this.props;
-
         return (
             <div>
                 <PresentationalIcon path={imgPath} />
@@ -23,6 +21,6 @@ export class PresentationalWrapperWithDescription extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }

@@ -18,6 +18,6 @@ export class PresentationalWrapper extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }

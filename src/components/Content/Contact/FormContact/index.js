@@ -35,7 +35,6 @@ export class FormContact extends Component {
                                             id="name" 
                                             required="required" 
                                             placeholder="  Name" 
-                                            placeholder="  Name" 
                                             onChange={ e => this.setState({ inputName: e.target.value }) }
                                             ref={ inputElement => this.inputName = inputElement }
                                             value={ this.state.inputName }

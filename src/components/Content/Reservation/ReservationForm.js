@@ -13,14 +13,14 @@ export class ReservationForm extends Component {
         };
     }
 
-    handleSubmit = (e) => {
+    _handleSubmit = (e) => {
         e.preventDefault();
         console.log(this.state);
     }
 
     render() {
         return (
-            <form className="reservation-form" onSubmit={ this.handleSubmit }>
+            <form className="reservation-form" onSubmit={ this._handleSubmit }>
                 <div className="row">
                     <div className="col-md-6 col-sm-6">
                         <div className="form-group">

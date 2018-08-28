@@ -11,6 +11,6 @@ export class PresentationalIcon extends Component {
         const { path } = this.props;
         return (
             <img className="img-responsive section-icon hidden-sm hidden-xs" src={require(`../../assets/images/icons/${path}.png`)} alt={path}/>
-        )
+        );
     }
 }

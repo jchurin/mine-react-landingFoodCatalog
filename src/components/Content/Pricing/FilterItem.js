@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export class FilterItem extends Component {
@@ -9,9 +9,9 @@ export class FilterItem extends Component {
     }
 
     render() {
-        const {dataFilter, label} = this.props;
+        const { dataFilter, label } = this.props;
         return (
             <li className="filter" data-filter={dataFilter}>{label}</li>
-        )
+        );
     }
 }

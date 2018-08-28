@@ -20,6 +20,5 @@ export const CarouselHeader = () => {
             subTitle="create your own slogan"
             />
         </section>
-
-    )
+    );
 }

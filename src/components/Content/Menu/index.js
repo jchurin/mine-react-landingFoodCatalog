@@ -28,7 +28,7 @@ export class Menu extends Component {
                         })
                     }
                 </div>
-            )
+            );
         });
     }
 

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 export class ResultItem extends Component {
     render() {
 
-        const {categories, img, title, subtitle, amount} = this.props;
-        const {path, alt} = img;
+        const { categories, img, title, subtitle, amount } = this.props;
+        const { path, alt } = img;
 
         return (
             <li className={`item ${categories.join(" ")}`}>
@@ -20,10 +20,7 @@ export class ResultItem extends Component {
                     </div>
                 </Link>
                 <h2 className="white">{`$${amount}`}</h2>
-
-                {/* <span href="#">
-                </span> */}
             </li>
-        )
+        );
     }
 }

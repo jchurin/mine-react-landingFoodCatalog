@@ -7,6 +7,6 @@ export class SliderDishesItem extends Component {
             <li>
                 <img src={require(`../../../assets/images/menu-gallery/${path}.${extension}`)} alt={alt} />
             </li>
-        )
+        );
     }
 }

@@ -33,6 +33,6 @@ export class ResultContainer extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }

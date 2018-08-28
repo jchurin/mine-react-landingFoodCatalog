@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 
 export class ItemCarousel extends Component {
     render() {
-
         const { orientationText, title, subTitle } = this.props;
-
         return (
             <div className="item">
                 <div className="container">
@@ -14,6 +12,6 @@ export class ItemCarousel extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }

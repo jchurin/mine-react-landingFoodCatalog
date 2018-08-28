@@ -33,6 +33,6 @@ export class FilterContainer extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }

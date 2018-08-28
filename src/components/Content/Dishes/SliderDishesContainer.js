@@ -28,6 +28,6 @@ export class SliderDishesContainer extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }
