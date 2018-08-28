@@ -40,9 +40,9 @@ export class Menu extends Component {
                         <div className="col-md-10 col-md-offset-1 col-sm-9 col-sm-offset-2 col-xs-12">
                             <div className="row">{this.getColumns()}</div>
                             <div id="moreMenuContent"></div>
-                            <div className="text-center">
+                            {/* <div className="text-center">
                                 <a id="loadMenuContent" className="btn btn-middle hidden-sm hidden-xs">Load More <span className="caret"></span></a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

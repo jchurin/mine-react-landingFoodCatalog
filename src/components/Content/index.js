@@ -65,7 +65,7 @@ export class Content extends Component {
                 component = <Contact key={itemIndex} />
                 break;
             default:
-                console.error('This item doesnt exist!');
+                console.error('This item doesnt exist! Add it into de header.constants.js');
                 break;
         }
         return component;

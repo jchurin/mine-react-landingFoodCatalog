@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ItemContainer } from './ItemContainer';
+import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
 
@@ -15,9 +16,9 @@ export default class Header extends Component {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <span className="navbar-brand">
+                            <Link to="#header-slider" className="navbar-brand">
                                 <img id="logo" src={require('../../assets/images/Logo_main.png')} className="logo img-responsive" alt="logo"/>
-                            </span>
+                            </Link>
                         </div>
 
                         <ItemContainer/>
