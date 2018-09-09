@@ -7,7 +7,7 @@ import './assets/css/animate.css';
 import './assets/css/flexslider.css';
 import './assets/css/pricing.css';
 import './assets/css/main.css';
-import './index.css';
+import './index.scss';
 
 // JS imports
 import jquery from 'jquery';
