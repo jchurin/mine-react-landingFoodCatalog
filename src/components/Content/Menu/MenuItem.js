@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export class MenuItem extends Component {
+
+    static propTypes = {
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        perHead: PropTypes.string.isRequired,
+        amount: PropTypes.number.isRequired
+    };
+
     render() {
         
         const { title, description, perHead, amount } = this.props;
@@ -20,6 +29,6 @@ export class MenuItem extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }

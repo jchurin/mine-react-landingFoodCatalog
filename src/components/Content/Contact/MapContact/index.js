@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class MapContact extends Component {
-    render() {
-        return (
-            <div className="container-fluid">
-                <div className="row">
-                    <div id="map-canvas"></div>
-                </div>
+export const MapContact = () => {
+    return (
+        <div className="container-fluid">
+            <div className="row">
+                <div id="map-canvas"></div>
             </div>
-        )
-    }
+        </div>
+    );
 }

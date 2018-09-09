@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 export class ResultItem extends Component {
+
+    static propTypes = {
+        categories: PropTypes.array,
+        img: PropTypes.object.isRequired,
+        title: PropTypes.string.isRequired,
+        subtitle: PropTypes.string.isRequired,
+        amount: PropTypes.number.isRequired
+    };
+
     render() {
 
         const { categories, img, title, subtitle, amount } = this.props;

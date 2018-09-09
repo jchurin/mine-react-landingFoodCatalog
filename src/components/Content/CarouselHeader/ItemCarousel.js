@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export class ItemCarousel extends Component {
+
+    static propTypes = {
+        orientationText: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        subTitle: PropTypes.string.isRequired
+    };
+
     render() {
         const { orientationText, title, subTitle } = this.props;
         return (

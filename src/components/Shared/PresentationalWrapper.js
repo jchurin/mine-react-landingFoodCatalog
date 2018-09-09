@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import { PresentationalIcon } from './PresentationalIcon';
+import PropTypes from 'prop-types';
 
 export class PresentationalWrapper extends Component {
+
+    static propTypes = {
+        title: PropTypes.string.isRequired,
+        imgPath: PropTypes.string.isRequired
+    };
+
     render() {
         const { title, imgPath } = this.props;
         return (
